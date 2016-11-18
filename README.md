@@ -63,7 +63,6 @@ It is assumed the reader of this documentation has a basic understanding of Dock
 **urls.py**
 
 	urlpatterns = [
-    url(r'^employees/', include('employees.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include('allauth.urls')),
 	]
