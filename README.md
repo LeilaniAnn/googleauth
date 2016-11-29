@@ -35,7 +35,8 @@ It is assumed the reader of this documentation has a basic understanding of Dock
             },
         },
     ]
-
+    LOGIN_REDIRECT_URL = '/admin'
+    
 	AUTHENTICATION_BACKENDS = (
     ...
     # Needed to login by username in Django admin, regardless of `allauth`
