@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     # Metadata
-    name='lab-gauth',
+    name='labgauth',
     version='0.1.0',
     description='Mostly drop in django app to use Google Apps for lab users.'
     packages=['fixtures',

@@ -43,11 +43,10 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RunPython(loadfixture),
-        migrations.RunPython(setup_login_app),
     ]
 class DemoConfig(AppConfig):
-    name = 'lab-gauth'
-    verbose_name = _('lab-gauth')
+    name = 'labgauth'
+    verbose_name = _('labgauth')
 
     def ready(self):
         post_migrate.connect(setup_login_app, sender=self)
