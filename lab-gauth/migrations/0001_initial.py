@@ -43,6 +43,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RunPython(loadfixture),
+        migrations.RunPython(setup_login_app),
     ]
 class DemoConfig(AppConfig):
     name = 'lab-gauth'
