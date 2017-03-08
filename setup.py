@@ -2,14 +2,14 @@ from distutils.core import setup
 
 setup(
     # Metadata
-    name='labgauth',
+    name='gauth',
     version='0.1.0',
     description='Mostly drop in django app to use Google Apps for lab users.'
     packages=['fixtures',
               'migrations',
               'template'
     ],
-    url='https://gitlab.com/thelabnyc/lab-gauth',
+    url='http://github.com/LeilaniAnn/googleauth',
     license='ISC',
     author='Leilani Raranga',
     author_email='Leilani.Ann.Raranga@gmail.com',

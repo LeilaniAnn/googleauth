@@ -53,8 +53,8 @@ It is assumed the reader of this documentation has a basic understanding of Dock
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-    # keep labgauth above admin to use included templates
-    'labgauth',
+    # keep gauth above admin to use included templates
+    'gauth',
     'django.contrib.admin',
 	]
 
