@@ -1,4 +1,4 @@
-#Installation Guide
+# Installation Guide
 It is assumed the reader of this documentation has a basic understanding of Docker and Django.
 
  1. Install docker-compose
