@@ -1,3 +1,6 @@
+# Google SSO for use with Django-Admin
+_user does not have staff/admin status, if this is desired, manually add permissions_
+
 # Installation Guide
 It is assumed the reader of this documentation has a basic understanding of Docker and Django.
 
